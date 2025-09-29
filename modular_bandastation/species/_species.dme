@@ -9,6 +9,7 @@
 #include "code/human/species_type/skrell.dm"
 #include "code/human/species_type/tajaran.dm"
 #include "code/human/species_type/vulpkanin.dm"
+#include "code/human/species_type/natural_slime.dm"
 
 #include "code/human/sprite_accessories/skrell/skrell_head_tentacles.dm"
 
@@ -34,6 +35,7 @@
 #include "code/language/qurvolious.dm"
 #include "code/language/siiktajr.dm"
 #include "code/language/spinwarder.dm"
+#include "code/language/bubblish.dm"
 
 #include "code/preferences/species_features/skrell/skrell_head_tentacle.dm"
 
@@ -71,4 +73,5 @@
 #include "code/surgery/organs/external/tajaran_external.dm"
 #include "code/surgery/organs/internal/tajaran_internal.dm"
 #include "code/surgery/organs/internal/skrell_internal.dm"
+#include "code/surgery/organs/internal/natural_slime_internal.dm"
 #include "code/surgery/organs/limbgrower_designs.dm"

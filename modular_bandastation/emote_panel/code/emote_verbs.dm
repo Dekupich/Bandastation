@@ -514,3 +514,24 @@
 	set name = "○ Расправить крылья"
 	set category = "Эмоции"
 	emote("wing", intentional = TRUE)
+
+// MARK: Natural slime emotes
+// /mob/living/carbon/human/species/natural_slime/proc/pop()
+// 	set name = "▷ Хлопать ртом"
+// 	set category = "Эмоции"
+// 	emote("pop", intentional = TRUE)
+
+// /mob/living/carbon/human/species/natural_slime/proc/pop2()
+// 	set name = "▷ Хлопать ртом дважды"
+// 	set category = "Эмоции"
+// 	emote("pop2", intentional = TRUE)
+
+// /mob/living/carbon/human/species/natural_slime/proc/bubble()
+// 	set name = "▷ Булькать"
+// 	set category = "Эмоции"
+// 	emote("bubble", intentional = TRUE)
+
+// /mob/living/carbon/human/species/natural_slime/proc/squish()
+// 	set name = "▷ Хлюпать"
+// 	set category = "Эмоции"
+// 	emote("squish", intentional = TRUE)
