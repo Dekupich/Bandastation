@@ -59,47 +59,47 @@
 		На данный момент данный аванпост разросся до планетарной столицы общества слаймолюдей города “Блобу”, который также является самым крупным космопортом планеты. Пещеры же превратили в музейный комплекс, привлекающий большое количество интересующихся культурой слаймолюдей туристов ",
 	)
 
-/datum/species/jelly/natural_slime/get_scream_sound(mob/living/carbon/human/species/natural_slime)
-	if(natural_slime.physique == FEMALE)
-		return 'modular_bandastation/emote_panel/audio/natural_slime/burble.ogg'
-	return 'modular_bandastation/emote_panel/audio/natural_slime/burble.ogg'
+// /datum/species/jelly/natural_slime/get_scream_sound(mob/living/carbon/human/species/natural_slime)
+// 	if(natural_slime.physique == FEMALE)
+// 		return 'modular_bandastation/emote_panel/audio/natural_slime/burble.ogg'
+// 	return 'modular_bandastation/emote_panel/audio/natural_slime/burble.ogg'
 
-/datum/species/jelly/natural_slime/get_sigh_sound(mob/living/carbon/human/species/natural_slime)
-	if(natural_slime.physique == FEMALE)
-		return pick(
-			'sound/mobs/humanoids/human/sigh/female_sigh1.ogg',
-			'sound/mobs/humanoids/human/sigh/female_sigh2.ogg',
-			'sound/mobs/humanoids/human/sigh/female_sigh3.ogg',
-		)
-	return pick(
-		'sound/mobs/humanoids/human/sigh/male_sigh1.ogg',
-		'sound/mobs/humanoids/human/sigh/male_sigh2.ogg',
-		'sound/mobs/humanoids/human/sigh/male_sigh3.ogg',
-	)
+// /datum/species/jelly/natural_slime/get_sigh_sound(mob/living/carbon/human/species/natural_slime)
+// 	if(natural_slime.physique == FEMALE)
+// 		return pick(
+// 			'sound/mobs/humanoids/human/sigh/female_sigh1.ogg',
+// 			'sound/mobs/humanoids/human/sigh/female_sigh2.ogg',
+// 			'sound/mobs/humanoids/human/sigh/female_sigh3.ogg',
+// 		)
+// 	return pick(
+// 		'sound/mobs/humanoids/human/sigh/male_sigh1.ogg',
+// 		'sound/mobs/humanoids/human/sigh/male_sigh2.ogg',
+// 		'sound/mobs/humanoids/human/sigh/male_sigh3.ogg',
+// 	)
 
-/datum/species/jelly/natural_slime/get_cough_sound(mob/living/carbon/human/species/natural_slime)
-	if(natural_slime.physique == FEMALE)
-		return 'modular_bandastation/emote_panel/audio/natural_slime/popcough.ogg'
-	return 'modular_bandastation/emote_panel/audio/natural_slime/popcough.ogg'
+// /datum/species/jelly/natural_slime/get_cough_sound(mob/living/carbon/human/species/natural_slime)
+// 	if(natural_slime.physique == FEMALE)
+// 		return 'modular_bandastation/emote_panel/audio/natural_slime/popcough.ogg'
+// 	return 'modular_bandastation/emote_panel/audio/natural_slime/popcough.ogg'
 
-/datum/species/jelly/natural_slime/get_cry_sound(mob/living/carbon/human/species/natural_slime)
-	if(natural_slime.physique == FEMALE)
-		return pick(
-			'sound/mobs/humanoids/human/cry/female_cry1.ogg',
-			'sound/mobs/humanoids/human/cry/female_cry2.ogg',
-		)
-	return pick(
-		'sound/mobs/humanoids/human/cry/male_cry1.ogg',
-		'sound/mobs/humanoids/human/cry/male_cry2.ogg',
-		'sound/mobs/humanoids/human/cry/male_cry3.ogg',
-	)
+// /datum/species/jelly/natural_slime/get_cry_sound(mob/living/carbon/human/species/natural_slime)
+// 	if(natural_slime.physique == FEMALE)
+// 		return pick(
+// 			'sound/mobs/humanoids/human/cry/female_cry1.ogg',
+// 			'sound/mobs/humanoids/human/cry/female_cry2.ogg',
+// 		)
+// 	return pick(
+// 		'sound/mobs/humanoids/human/cry/male_cry1.ogg',
+// 		'sound/mobs/humanoids/human/cry/male_cry2.ogg',
+// 		'sound/mobs/humanoids/human/cry/male_cry3.ogg',
+// 	)
 
-/datum/species/jelly/natural_slime/get_laugh_sound(mob/living/carbon/human/species/natural_slime)
-	if(!ishuman(natural_slime))
-		return
-	if(natural_slime.physique == FEMALE)
-		return 'sound/mobs/humanoids/human/laugh/womanlaugh.ogg'
-	return pick(
-		'sound/mobs/humanoids/human/laugh/manlaugh1.ogg',
-		'sound/mobs/humanoids/human/laugh/manlaugh2.ogg',
-	)
+// /datum/species/jelly/natural_slime/get_laugh_sound(mob/living/carbon/human/species/natural_slime)
+// 	if(!ishuman(natural_slime))
+// 		return
+// 	if(natural_slime.physique == FEMALE)
+// 		return 'sound/mobs/humanoids/human/laugh/womanlaugh.ogg'
+// 	return pick(
+// 		'sound/mobs/humanoids/human/laugh/manlaugh1.ogg',
+// 		'sound/mobs/humanoids/human/laugh/manlaugh2.ogg',
+// 	)

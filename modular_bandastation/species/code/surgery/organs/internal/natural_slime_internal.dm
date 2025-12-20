@@ -30,12 +30,12 @@
 	add_verb(owner, /mob/living/carbon/human/species/natural_slime/proc/bubble)
 	add_verb(owner, /mob/living/carbon/human/species/natural_slime/proc/squish)
 
-/obj/item/organ/tongue/tajaran/on_mob_remove(mob/living/carbon/owner)
+/obj/item/organ/tongue/natural_slime/on_mob_remove(mob/living/carbon/owner)
 	. = ..()
-	add_verb(owner, /mob/living/carbon/human/species/natural_slime/proc/pop)
-	add_verb(owner, /mob/living/carbon/human/species/natural_slime/proc/pop2)
-	add_verb(owner, /mob/living/carbon/human/species/natural_slime/proc/bubble)
-	add_verb(owner, /mob/living/carbon/human/species/natural_slime/proc/squish)
+	remove_verb(owner, /mob/living/carbon/human/species/natural_slime/proc/pop)
+	remove_verb(owner, /mob/living/carbon/human/species/natural_slime/proc/pop2)
+	remove_verb(owner, /mob/living/carbon/human/species/natural_slime/proc/bubble)
+	remove_verb(owner, /mob/living/carbon/human/species/natural_slime/proc/squish)
 
 /obj/item/organ/tongue/get_possible_languages()
 	return ..() + /datum/language/bubblish
